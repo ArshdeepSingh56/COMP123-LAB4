@@ -10,6 +10,11 @@ namespace COMP123_LAB4
     {
         static void Main(string[] args)
         {
+            Person arsh = new Person(name: "Arshdeep Singh", age: 20);
+
+            arsh.SaysHello();
+
+            Console.ReadLine();
         }
     }
 }
